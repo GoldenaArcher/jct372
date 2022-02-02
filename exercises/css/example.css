@@ -1,0 +1,27 @@
+/* body {
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    font-family: Georgia, serif;
+}
+
+p {
+    color: red;
+} */
+
+#top {
+    background-color: #ccc;
+    width: 800px;
+}
+
+#bottom {
+    background-color: aqua;
+    width: 600px;
+}
+
+#bottom p {
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}

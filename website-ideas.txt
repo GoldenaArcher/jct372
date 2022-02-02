@@ -1,0 +1,5 @@
+Project 1
+Organization name is CSUARVR, the organization purpose is to learn the affect of AR and some AR implementations. Webiste's purpose is to share the content that the club created, events held by the club, and the garget audience mainly focuses on CSU students. Currently information is scattered everywhere, it'll be nice to have a website which students can find all useful information and not drown in all of the chat messages. Typical content found on this site will be AR related information, since the club members plan to participate Hackthon event, there might also be some Hackthon related information.
+
+Project 2
+Organization name is unclear at this point, because it's a interest site. The purpose for the organization and website are same which displays information of the games, and some walkthrough/tips that can can make beginners game experience easier. Target audiences are Pokemon BDSP players. Typical content will be Pokemon BDSP related information, especially something that I wish to know at the beginning of the game.
