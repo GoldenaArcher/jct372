@@ -1,0 +1,53 @@
+:root {
+  --main-color: #54728a;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+nav,
+#content,
+footer {
+  width: 760px;
+}
+
+header img {
+  padding: 10px;
+}
+
+nav {
+  box-sizing: border-box;
+  background-color: var(--main-color);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 0px 5px 10px;
+}
+
+nav,
+nav a {
+  color: #fff;
+}
+
+#content h1 {
+  font-size: 20px;
+}
+
+#content img {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+footer {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: var(--main-color);
+  text-align: center;
+  padding: 5px 0 5px 0;
+  color: #fff;
+}
+
+body > * {
+  margin: 0 auto;
+}
