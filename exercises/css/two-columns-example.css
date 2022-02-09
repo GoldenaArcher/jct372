@@ -1,0 +1,45 @@
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  background: #f9c;
+  padding: 10px;
+}
+
+nav {
+  background: #3fc;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  width: 20%;
+  text-align: center;
+}
+
+#content {
+  background: red;
+  display: flex;
+}
+
+main {
+  background-color: aqua;
+  width: 70%;
+}
+
+aside {
+  background: green;
+  width: 30%;
+}
+
+footer {
+  background: #f93;
+}

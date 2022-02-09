@@ -1,0 +1,82 @@
+/* GENERAL */
+:root {
+  --background-blue: #00c;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 1.5rem;
+}
+
+/* WRAPPER */
+#wrapper {
+  width: 750px;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background: #c33;
+  padding: 10px;
+  text-align: center;
+}
+
+/* NAV */
+nav {
+  background-color: var(--background-blue);
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  width: 20%;
+  text-align: center;
+  padding: 5px 0;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* CONTENT */
+#content {
+  display: flex;
+}
+main {
+  width: 70%;
+  padding: 0 1rem;
+}
+aside {
+  background-color: #ffc;
+  width: 30%;
+  text-align: center;
+}
+aside img {
+  margin-bottom: 1rem;
+  border: 1px solid #000;
+}
+aside a {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+aside p time {
+  font-style: italic;
+}
+aside p span {
+  font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+  padding: 5px;
+  background-color: var(--background-blue);
+  text-align: center;
+  color: #fff;
+}
