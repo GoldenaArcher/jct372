@@ -1,0 +1,33 @@
+services | resources | news | about | login
+
+Services >
+
+Monitoring
+Modeling
+Permitting & Compliance
+Tribal Air Quality
+Fire Emissions
+
+
+Modeling
+
+Air Services is well-versed in the complex issues associated with PSD and state permits including visibility and air-quality-related value (AQRV) analyses. Our experienced staff can guide our clients through the maze of regulations and provide the technical expertise needed in negotiations with state and Federal Land Managers to define appropriate protocols and methods for assessing impacts. We strive to work with our clients and regulators to come to solutions that meet the needs of our clients and the environment.
+
+The staff at Air Services have worked with a large variety of air dispersion models. These models have included:
+
+Traditional regulatory models (CALPUFF, ISCST3, AERMOD, and PRIME variants, ACE model)
+
+Visibility models (VISCREEN, PLUVUE, CALPUFF)
+
+Meteorological preprocessors (PCRAMMET, MPRM, CALMET, and custom formatting)
+
+RMP/Accidental release models (DEGADIS, SLAB, ALOHA, RMP*comp)
+
+Transportation and Planning Models (MOBILE and PART emissions models, CALINE, CAL3QHC, EMFAC/MVEI, URBEMIS, EDMS)
+
+Fire Effects Models (FETM, SIS, SASEM, FOFEM, TSARS, NSFPUFF)
+
+Specialized models (SACTI for water vapor plumes, OBOD for munitions demolition, REEDM for rocket engines)
+
+
+
