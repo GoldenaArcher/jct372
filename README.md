@@ -8,3 +8,4 @@ This is the content made for [JTC372](https://www.jtc372.net/) class, completed 
 - [Simple 1-Column CSS Layout](https://goldenaarcher.com/jtc372/exercises/ex1.html)
 - [Layout Exercise #2](https://goldenaarcher.com/jtc372/exercises/ex2.html)
 - [Layout Exercise #3](https://goldenaarcher.com/jtc372/exercises/ex3.html)
+- [Layout Exercise #4](https://goldenaarcher.com/jtc372/exercises/ex4.html)
