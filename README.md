@@ -9,3 +9,4 @@ This is the content made for [JTC372](https://www.jtc372.net/) class, completed 
 - [Layout Exercise #2](https://goldenaarcher.com/jtc372/exercises/ex2.html)
 - [Layout Exercise #3](https://goldenaarcher.com/jtc372/exercises/ex3.html)
 - [Layout Exercise #4](https://goldenaarcher.com/jtc372/exercises/ex4.html)
+- [Layout Exercise #5](https://goldenaarcher.com/jtc372/exercises/ex5.html)
