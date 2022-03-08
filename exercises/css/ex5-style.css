@@ -1,0 +1,114 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #6699cc;
+}
+
+#topstripe,
+nav,
+footer {
+  font-family: "Sansita Swashed", cursive;
+  font-weight: 700;
+}
+
+#wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: pink;
+}
+
+#topstripe {
+  padding: 0.5em;
+  text-align: center;
+  background-color: #010066;
+  color: #fff;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+}
+
+nav {
+  background-color: #010066;
+  padding: 0.5em 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#content {
+  display: flex;
+}
+
+#side-a,
+#side-b {
+  width: 25%;
+  background-color: #ffffcb;
+}
+.band {
+  margin: 0.5em;
+}
+.band-img {
+  max-width: 100%;
+}
+.band-name {
+  text-align: center;
+  margin: 0 0 0.5em 0;
+}
+
+main {
+  width: 50%;
+  padding: 0.5em 1em 1em 1em;
+}
+main h2,
+main h3,
+main h4,
+.sign-up {
+  text-align: center;
+}
+main h2 {
+  margin: 0 auto;
+}
+main h4 {
+  color: orange;
+  font-style: italic;
+}
+.sign-up {
+  background-color: #bbb;
+}
+.sign-up p {
+  font-style: italic;
+  font-weight: 700;
+  padding-top: 0.5em;
+}
+.sign-up button {
+  margin-bottom: 2em;
+  border: none;
+  padding: 0.8em 5em;
+  background-color: #010066;
+  color: #fff;
+}
+button:hover {
+  cursor: pointer;
+}
+
+footer {
+  color: white;
+  background-color: #010066;
+  text-align: center;
+  padding: 0.5em;
+}
+.author {
+  text-decoration: underline;
+}
