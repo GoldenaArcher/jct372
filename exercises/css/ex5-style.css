@@ -1,6 +1,10 @@
+:root {
+  --background: lightpink;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #6699cc;
+  background-color: skyblue;
 }
 
 #topstripe,
@@ -19,7 +23,7 @@ footer {
 #topstripe {
   padding: 0.5em;
   text-align: center;
-  background-color: #010066;
+  background-color: var(--background);
   color: #fff;
 }
 
@@ -30,7 +34,7 @@ header img {
 }
 
 nav {
-  background-color: #010066;
+  background-color: var(--background);
   padding: 0.5em 0;
 }
 
@@ -54,7 +58,7 @@ li a {
 #side-a,
 #side-b {
   width: 25%;
-  background-color: #ffffcb;
+  background-color: #b19cd9;
 }
 .band {
   margin: 0.5em;
@@ -85,18 +89,18 @@ main h4 {
   font-style: italic;
 }
 .sign-up {
-  background-color: #bbb;
+  background-color: #eee;
+  font-weight: 700;
 }
 .sign-up p {
   font-style: italic;
-  font-weight: 700;
   padding-top: 0.5em;
 }
 .sign-up button {
   margin-bottom: 2em;
   border: none;
   padding: 0.8em 5em;
-  background-color: #010066;
+  background-color: var(--background);
   color: #fff;
 }
 button:hover {
@@ -105,7 +109,7 @@ button:hover {
 
 footer {
   color: white;
-  background-color: #010066;
+  background-color: var(--background);
   text-align: center;
   padding: 0.5em;
 }

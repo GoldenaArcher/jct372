@@ -1,0 +1,125 @@
+body {
+  background-color: #98520c;
+  font-family: "Roboto", sans-serif;
+}
+.content {
+  background-color: #fff;
+}
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #000;
+  padding: 1.2em 0;
+}
+header {
+  display: flex;
+}
+.logos {
+  width: 80.6%;
+  position: relative;
+}
+.logo_top,
+.logo_bottom {
+  display: block;
+}
+.logos > div {
+  background-color: #fff;
+  padding: 0.5em;
+}
+.logo_top {
+  margin: 0 auto;
+}
+.logo_bottom {
+  position: absolute;
+  right: 0;
+}
+.mug img {
+  height: 100%;
+}
+.content {
+  display: flex;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #f5ffff;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  box-sizing: border-box;
+  background-color: #ce8a21;
+  padding: 0.8em;
+  border: 1px solid black;
+}
+nav > img {
+  display: block;
+  width: 95%;
+}
+main {
+  width: 55%;
+  padding: 0 0.8em;
+}
+main p {
+  position: relative;
+  font-size: 1.1em;
+  border-bottom: 1px dotted black;
+  padding-bottom: 1em;
+}
+.float-right {
+  float: right;
+}
+q {
+  font-style: italic;
+}
+q::before,
+q::after {
+  content: "";
+}
+.available_transcript {
+  display: block;
+  font-weight: 700;
+}
+aside {
+  width: 25%;
+  background-color: #ffc;
+  padding: 0 1em;
+}
+.future-meeting__title {
+  margin-top: 0.8em;
+}
+time {
+  font-style: italic;
+}
+address {
+  font-style: normal;
+}
+.street {
+  font-weight: 700;
+}
+.meeting-section {
+  margin-bottom: 1em;
+}
+.purchase-item__title {
+  font-size: 1em;
+  margin-bottom: 0;
+}
+.purchase-item {
+  margin-bottom: 1em;
+}
+.purchase-item img {
+  display: block;
+  margin: 0 auto;
+}
