@@ -248,6 +248,14 @@ nav a {
 footer {
   padding: 2em 3em;
 }
+.footer__logo {
+  text-align: center;
+  font-weight: 600;
+}
+footer img {
+  max-width: 5em;
+  margin-bottom: 1em;
+}
 .social p {
   text-align: center;
   margin-bottom: 1em;
