@@ -143,6 +143,9 @@ table {
 html {
   font-family: "Roboto", sans-serif;
 }
+p {
+  line-height: 1.5em;
+}
 .flex {
   display: flex;
 }
@@ -196,11 +199,18 @@ nav a {
   padding: 2em 0;
 }
 .about-us__text {
-  width: 80%;
-  margin-right: 3em;
+  width: 65%;
+  margin-right: 8em;
 }
 .about-us__text p {
   margin-bottom: 1em;
+}
+.about-us__text p:nth-child(2n) {
+  padding-left: 3em;
+}
+.about-us__text p:nth-child(2n)::before {
+  content: ">";
+  margin-right: 1em;
 }
 .about-us__logo {
   width: 20%;
@@ -220,7 +230,7 @@ nav a {
   font-size: 1.4em;
   font-weight: 700;
   color: var(--primary-green-dark);
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 .main-section h3 {
   font-size: 1.2em;
