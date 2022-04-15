@@ -246,8 +246,8 @@ nav a {
 }
 .event__info,
 .resource__info {
-  width: 70%;
-  padding-right: 1em;
+  width: 65%;
+  padding-right: 2em;
 }
 .event__info p,
 .resource__info p {
