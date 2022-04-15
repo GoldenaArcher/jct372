@@ -140,6 +140,9 @@ table {
   --primary-white-darker: #ccc;
 }
 /* common style */
+html {
+  font-family: "Roboto", sans-serif;
+}
 .flex {
   display: flex;
 }
@@ -221,7 +224,7 @@ nav a {
 }
 .main-section h3 {
   font-size: 1.2em;
-  font-weight: 600;
+  font-weight: 500;
 }
 .main-section time {
   width: 10%;
@@ -250,7 +253,7 @@ footer {
 }
 .footer__logo {
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
 }
 footer img {
   max-width: 5em;
