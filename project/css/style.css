@@ -196,7 +196,7 @@ nav a {
 }
 /* end of header */
 /* main */
-.about-us {
+main {
   padding: 2em 0;
 }
 .about-us__text {
@@ -279,3 +279,47 @@ footer img {
   margin-right: 0.5em;
   width: 1.5em;
 }
+/* end of footer */
+/* end of home page */
+.not-found__page,
+.not-found__page a {
+  color: var(--primary-green-dark);
+  text-decoration: none;
+  text-align: center;
+}
+.not-found__404 {
+  font-size: 9.75em;
+}
+.not-found__rotate {
+  display: inline-block;
+  transform: rotate(10deg);
+}
+.not-found__rotate1 {
+  display: inline-block;
+  transform: rotate(-5deg);
+}
+.sad-face404 {
+  width: 1em;
+}
+.not-found__page p {
+  font-size: 3em;
+  margin: 1.5em 0;
+}
+.redirect404 {
+  padding: 1em;
+  margin-bottom: 3em;
+  border: none;
+  background-color: var(--primary-green-dark);
+  border-radius: 0.4em;
+}
+.redirect404 span,
+.redirect404 img {
+  display: block;
+  color: white;
+}
+.arrow-right {
+  width: 1.5em;
+  margin-left: 0.5em;
+}
+/* begin of not found page */
+/* end of not found page */
