@@ -281,6 +281,7 @@ footer img {
 }
 /* end of footer */
 /* end of home page */
+/* begin of not found page */
 .not-found__page,
 .not-found__page a {
   color: var(--primary-green-dark);
@@ -321,5 +322,49 @@ footer img {
   width: 1.5em;
   margin-left: 0.5em;
 }
-/* begin of not found page */
 /* end of not found page */
+/* begin of not contact page */
+.contact-us {
+  color: var(--primary-green-dark);
+}
+.contact-us__header {
+  font-size: 4em;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+.contact-us__body {
+  margin: 2em;
+}
+.contact__input,
+.contact__text {
+  margin: 1em 0;
+  margin-right: 15em;
+}
+label {
+  margin-right: 3em;
+}
+.contact__text label {
+  margin-right: 1.5em;
+}
+textarea {
+  resize: none;
+  width: 30em;
+}
+.send-message {
+  border: none;
+  margin-top: 3em;
+  background-color: var(--primary-green);
+  padding: 0.8em 3em;
+  border-radius: 0.4em;
+  color: white;
+}
+.send-message:hover {
+  cursor: pointer;
+}
+.send-message * {
+  display: block;
+}
+.send-message img {
+  margin-left: 1em;
+}
+/* end of not contact page */
