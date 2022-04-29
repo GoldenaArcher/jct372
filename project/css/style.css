@@ -229,13 +229,16 @@ main {
 .main-section h2,
 .main-section h3 {
   font-size: 1.4em;
-  font-weight: 700;
-  color: var(--primary-green-dark);
   margin-bottom: 1em;
 }
 .main-section h3 {
   font-size: 1.2em;
   font-weight: 500;
+}
+.main-section h3 a {
+  font-weight: 700;
+  color: var(--primary-green-dark);
+  text-decoration: none;
 }
 .main-section time {
   width: 10%;
@@ -368,3 +371,40 @@ textarea {
   margin-left: 1em;
 }
 /* end of not contact page */
+/* begin of detailed article */
+article h1 {
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+article h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  margin: 1em 0;
+}
+article h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 1em 0;
+}
+article p {
+  margin: 1em 0;
+  padding: 0 0.5em;
+}
+article img {
+  display: block;
+  margin: 1em auto;
+  max-width: 750px;
+}
+article li {
+  margin: 1em;
+}
+article ul li::before {
+  content: url("../img/arrow-right1.svg");
+  margin-right: 1em;
+}
+article ul ul li::before {
+  padding-left: 2em;
+  content: url("../img/arrow-right2.svg");
+}
+/* end of detailed article */
