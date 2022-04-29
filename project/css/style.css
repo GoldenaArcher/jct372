@@ -327,15 +327,18 @@ footer img {
 }
 /* end of not found page */
 /* begin of not contact page */
-.contact-us {
+.contact-us,
+.people {
   color: var(--primary-green-dark);
 }
-.contact-us__header {
+.contact-us__header,
+.people__header {
   font-size: 4em;
   margin-top: 1em;
   margin-bottom: 0.3em;
 }
-.contact-us__body {
+.contact-us__body,
+.people__body {
   margin: 2em;
 }
 .contact__input,
@@ -408,3 +411,33 @@ article ul ul li::before {
   content: url("../img/arrow-right2.svg");
 }
 /* end of detailed article */
+/* begin of member page */
+.member__card {
+  color: var(--primary-green);
+  max-width: 15em;
+  margin-bottom: 1em;
+}
+.member__card img {
+  width: 100%;
+}
+.people__body h3 {
+  color: var(--primary-green);
+  font-size: 2.5em;
+  margin: 0.5em 0;
+}
+.advisor,
+.current-members,
+.past-members {
+  margin: 1em 0;
+  margin: 0.5em 0;
+}
+.member-name {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.current-members > div,
+.past-members > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+/* end of member page */
