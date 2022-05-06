@@ -221,26 +221,18 @@ main {
 }
 .recent-event,
 .resource {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 .main-section {
   margin-bottom: 2em;
-}
-.main-section h2,
-.main-section h3 {
-  font-size: 1.4em;
-  margin-bottom: 1em;
-}
-.main-section h3 {
-  font-size: 1.2em;
-  font-weight: 500;
 }
 .main-section h3 a {
   font-weight: 700;
   color: var(--primary-green-dark);
   text-decoration: none;
 }
-.main-section time {
+li.recent-event time,
+li.resource time {
   width: 10%;
   padding-top: 0.2em;
 }
@@ -248,8 +240,8 @@ main {
   text-align: right;
   padding-right: 2em;
 }
-.event__info,
-.resource__info {
+li.recent-event .event__info,
+li.resource .resource__info {
   width: 65%;
   padding-right: 2em;
 }
@@ -257,8 +249,15 @@ main {
 .resource__info p {
   margin-bottom: 0.5em;
 }
-.main-section img {
+li.recent-event img, 
+li.resource img {
   width: 20%;
+}
+li.recent-event a,
+li.resource a {
+  text-decoration: none;
+  color: var(--primary-green);
+  font-weight: 600;
 }
 /* end of main */
 /* footer */
@@ -328,14 +327,20 @@ footer img {
 /* end of not found page */
 /* begin of not contact page */
 .contact-us,
-.people {
+.people,
+.events,
+.resources,
+.home {
   color: var(--primary-green-dark);
 }
 .contact-us__header,
-.people__header {
+.people__header,
+.events__header,
+.resources__header,
+.home__header {
   font-size: 4em;
   margin-top: 1em;
-  margin-bottom: 0.3em;
+  margin-bottom: 1em;
 }
 .contact-us__body,
 .people__body {
@@ -420,10 +425,15 @@ article ul ul li::before {
 .member__card img {
   width: 100%;
 }
-.people__body h3 {
+h2 {
   color: var(--primary-green);
   font-size: 2.5em;
   margin: 0.5em 0;
+}
+h3 {
+  color: var(--primary-green);
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
 }
 .advisor,
 .current-members,
